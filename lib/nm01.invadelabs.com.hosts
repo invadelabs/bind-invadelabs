@@ -1,11 +1,12 @@
 $ttl 38400
-nm01.invadelabs.com.	IN	SOA	ns.invadelabs.com. drew.invadelabs.com. (
-			1527979080
+nm01.invadelabs.com.	IN	SOA	ns.nm01.invadelabs.com. ns.nm02.invadelabs.com. (
+			1527979082
 			10800
 			3600
 			604800
 			38400 )
-nm01.invadelabs.com.	IN	NS	ns.invadelabs.com.
+nm01.invadelabs.com.	IN	NS	ns.nm01.invadelabs.com.
+ns.nm01.invadelabs.com.	300	IN	A	192.168.1.125
 drew-piv3.nm01.invadelabs.com.	300	IN	A	192.168.1.121
 drew-spiderkvm.nm01.invadelabs.com.	300	IN	A	192.168.1.122
 drew-8570w.nm01.invadelabs.com.	300	IN	A	192.168.1.124
