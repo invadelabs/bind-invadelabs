@@ -1,0 +1,9 @@
+$ttl 38400
+168.192.in-addr.arpa.	IN	SOA	ns.invadelabs.com. drew.invadelabs.com. (
+			1527979418
+			10800
+			3600
+			604800
+			38400 )
+168.192.in-addr.arpa.	IN	NS	ns.invadelabs.com.
+121.1.168.192.in-addr.arpa.	300	IN	PTR	drew-piv3.nm01.invadelabs.com.

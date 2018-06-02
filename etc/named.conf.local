@@ -6,3 +6,11 @@
 // organization
 //include "/etc/bind/zones.rfc1918";
 
+zone "nm01.invadelabs.com" {
+	type master;
+	file "/var/lib/bind/nm01.invadelabs.com.hosts";
+	};
+zone "168.192.in-addr.arpa" {
+	type master;
+	file "/var/lib/bind/192.168.rev";
+	};
