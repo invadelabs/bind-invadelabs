@@ -1,22 +1,23 @@
+; rndc reload
 $ttl 38400
-168.192.in-addr.arpa.	IN	SOA	ns.invadelabs.com. drew.invadelabs.com. (
-			1527979420
-			10800
-			3600
-			604800
-			38400 )
-168.192.in-addr.arpa.           IN  NS  ns.invadelabs.com.
-121.1.168.192.in-addr.arpa. 300 IN  PTR drew-piv3.nm01.invadelabs.com.
-122.1.168.192.in-addr.arpa. 300 IN  PTR drew-spiderkvm.nm01.invadelabs.com.
-124.1.168.192.in-addr.arpa. 300 IN  PTR drew-8570w.nm01.invadelabs.com.
-125.1.168.192.in-addr.arpa. 300 IN  PTR drew-serv.nm01.invadelabs.com.
-126.1.168.192.in-addr.arpa. 300 IN  PTR drew-surface.nm01.invadelabs.com.
-127.1.168.192.in-addr.arpa. 300 IN  PTR drew-24port-sw.nm01.invadelabs.com.
-128.1.168.192.in-addr.arpa. 300 IN  PTR drew-piv1.nm01.invadelabs.com.
-130.1.168.192.in-addr.arpa. 300 IN  PTR drew-pine64.nm01.invadelabs.com.
-131.1.168.192.in-addr.arpa. 300 IN  PTR drew-ups-ng-sw.nm01.invadelabs.com.
-132.1.168.192.in-addr.arpa. 300 IN  PTR drew-g3.nm01.invadelabs.com.
-133.1.168.192.in-addr.arpa. 300 IN  PTR drew-ups-sw-pro.nm01.invadelabs.com.
-135.1.168.192.in-addr.arpa. 300 IN  PTR nagios.nm01.invadelabs.com.
-136.1.168.192.in-addr.arpa. 300 IN  PTR nagios.nm01.invadelabs.com.
-137.1.168.192.in-addr.arpa. 300 IN  PTR reserved137.nm01.invadelabs.com.
+168.192.in-addr.arpa.	IN	SOA	ns1.invadelabs.com. ns2.invadelabs.com. (
+			1529795658 ; serial
+			10800      ; refresh
+			3600       ; retry
+			604800     ; expire
+			38400      ; negative cache ttl
+			)
+121.1.168.192.in-addr.arpa. 300 IN  PTR drew-piv3.nm1.invadelabs.com.
+122.1.168.192.in-addr.arpa. 300 IN  PTR drew-spiderkvm.nm1.invadelabs.com.
+124.1.168.192.in-addr.arpa. 300 IN  PTR drew-8570w.nm1.invadelabs.com.
+125.1.168.192.in-addr.arpa. 300 IN  PTR drew-serv.nm1.invadelabs.com.
+126.1.168.192.in-addr.arpa. 300 IN  PTR drew-surface.nm1.invadelabs.com.
+127.1.168.192.in-addr.arpa. 300 IN  PTR drew-24port-sw.nm1.invadelabs.com.
+128.1.168.192.in-addr.arpa. 300 IN  PTR drew-piv1.nm1.invadelabs.com.
+130.1.168.192.in-addr.arpa. 300 IN  PTR drew-pine64.nm1.invadelabs.com.
+131.1.168.192.in-addr.arpa. 300 IN  PTR drew-ups-ng-sw.nm1.invadelabs.com.
+132.1.168.192.in-addr.arpa. 300 IN  PTR drew-g3.nm1.invadelabs.com.
+133.1.168.192.in-addr.arpa. 300 IN  PTR drew-ups-sw-pro.nm1.invadelabs.com.
+135.1.168.192.in-addr.arpa. 300 IN  PTR nagios.nm1.invadelabs.com.
+136.1.168.192.in-addr.arpa. 300 IN  PTR nagios.nm1.invadelabs.com.
+137.1.168.192.in-addr.arpa. 300 IN  PTR reserved137.nm1.invadelabs.com.
