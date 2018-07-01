@@ -1,12 +1,13 @@
 ; rndc reload
 $ttl 38400
 168.192.in-addr.arpa.	IN	SOA	ns1.invadelabs.com. ns2.invadelabs.com. (
-			1529795658 ; serial
+			1530481816 ; serial
 			10800      ; refresh
 			3600       ; retry
 			604800     ; expire
 			38400      ; negative cache ttl
 			)
+
 121.1.168.192.in-addr.arpa. 300 IN  PTR drew-piv3.nm1.invadelabs.com.
 122.1.168.192.in-addr.arpa. 300 IN  PTR drew-spiderkvm.nm1.invadelabs.com.
 124.1.168.192.in-addr.arpa. 300 IN  PTR drew-8570w.nm1.invadelabs.com.
@@ -21,3 +22,8 @@ $ttl 38400
 135.1.168.192.in-addr.arpa. 300 IN  PTR nagios.nm1.invadelabs.com.
 136.1.168.192.in-addr.arpa. 300 IN  PTR nagios.nm1.invadelabs.com.
 137.1.168.192.in-addr.arpa. 300 IN  PTR reserved137.nm1.invadelabs.com.
+141.1.168.192.in-addr.arpa. 300 IN  PTR drew-piv3-01.nm1.invadelabs.com.
+142.1.168.192.in-addr.arpa. 300 IN  PTR drew-piv3-02.nm1.invadelabs.com.
+143.1.168.192.in-addr.arpa. 300 IN  PTR drew-piv3-03.nm1.invadelabs.com.
+144.1.168.192.in-addr.arpa. 300 IN  PTR drew-piv3-04.nm1.invadelabs.com.
+145.1.168.192.in-addr.arpa. 300 IN  PTR drew-piv3-05.nm1.invadelabs.com.

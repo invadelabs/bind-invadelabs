@@ -1,12 +1,15 @@
 ; rndc reload
 $ttl 38400
 nm1.invadelabs.com.	IN	SOA	ns1.invadelabs.com. ns2.invadelabs.com. (
-			1529795658 ; serial
+			1530481816 ; serial
 			10800      ; refresh
 			3600       ; retry
 			604800     ; expire
       38400      ; negative cache ttl
 			)
+       300 IN NS  ns1.invadelabs.com.
+       300 IN NS  ns2.invadelabs.com.
+
 drew-piv3.nm1.invadelabs.com.       300 IN A  192.168.1.121
 drew-spiderkvm.nm1.invadelabs.com.  300 IN A  192.168.1.122
 drew-8570w.nm1.invadelabs.com.      300 IN A  192.168.1.124
@@ -21,3 +24,8 @@ drew-ups-sw-pro.nm1.invadelabs.com. 300 IN A  192.168.1.133
 gitlab.nm1.invadelabs.com.          300 IN A  192.168.1.135
 nagios.nm1.invadelabs.com.          300 IN A  192.168.1.136
 reserved137.nm1.invadelabs.com.     300 IN A  192.168.1.136
+drew-piv3-01.nm1.invadelabs.com.    300 IN A  192.168.1.141
+drew-piv3-02.nm1.invadelabs.com.    300 IN A  192.168.1.142
+drew-piv3-03.nm1.invadelabs.com.    300 IN A  192.168.1.143
+drew-piv3-04.nm1.invadelabs.com.    300 IN A  192.168.1.144
+drew-piv3-05.nm1.invadelabs.com.    300 IN A  192.168.1.145
