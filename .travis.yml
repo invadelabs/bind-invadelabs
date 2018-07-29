@@ -1,11 +1,16 @@
 language: bash
-sudo: false
+sudo: required
 dist: trusty
 addons:
   apt:
     packages:
     - bind9utils
 script:
+- sudo ln -s $PWD/etc /etc/bind
+- sudo ln -s $PWD/lib /var/lib/bind
+- sudo mkdir /var/cache/bind
+- named-checkconf -z
+- named-checkconf
 - named-checkzone nm1.invadelabs.com lib/nm1.invadelabs.com.hosts
 - named-checkzone 168.192.in-addr.arpa lib/192.168.rev
 notifications:
