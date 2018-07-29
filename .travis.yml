@@ -1,0 +1,13 @@
+language: bash
+sudo: false
+dist: trusty
+addons:
+  apt:
+    packages:
+    - bind9utils
+script:
+- named-checkzone nm1.invadelabs.com lib/nm1.invadelabs.com.hosts
+- named-checkzone 168.192.in-addr.arpa lib/192.168.rev
+notifications:
+  slack:
+    secure: jQZpNqCUkkjFeJKXD0iqVc3aAuW9FwYiEV0QvZqEQbAGgV7mkq4P1McM8AsFq+nrxHHUQXNnidJTkZNJCGmNLmoyN68gWR8msH89GVq28ymAcHLxWvHUmCKlBF6svpWS39Axzc4TRBuGAdeZq89NKqkjB6kjlSOtKKtRKdsfBEXRHnb9ta/Z19+ERJgyoyNpHFK1KWFvGhsEId2jQo0M9YPNWIafB2YtGLjDDbFyygTsSsx6WuvDA1hlE0YxgBW0OgynJ2cBhyKyarJhsHJhS4aYCwOOLqBq9kCfOIxwW4V62Edq7UWVQurTg0jYXeD7vdBMbReUSiRA9rvXgsJc9eFGfGIOhRTWhKgz4BqJZYOsDOanh3SnP0qaxHbEbu4Y3NdbnBFJG3f3rnkZUd6Lz8TlhVJ9FGQ97jDbp76xI4k24my6/3JJe4+fUto46BQAXG6l8C0wvfYxdblMPk43oumSQQWXDEmUrtwmy3RmEpzHi0PF3c9cSpzWu5aDyLE1jXwSyCBWRCRmzWdluE4rGV6nPn1X8CUjLozOyRLi3fu25RzPmjHicUOonKv+fC6MfkXt4zj47eq1mgknfJhWYSvSirHqy3H8Dnbsoj5K2u1Yq3PrA8IRRVU8SHHaeqrAR7MiQfjF7Wt5rwLQ9ryJ+vcmKOkid7hQSFQKeoOoq7w=
