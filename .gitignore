@@ -1,0 +1,4 @@
+etc/rndc.key
+
+# vim
+*.sw[a-z]
