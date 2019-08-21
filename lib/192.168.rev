@@ -23,6 +23,7 @@ $ORIGIN 168.192.in-addr.arpa.
 131.1 300 IN PTR drew-ups-ng-sw.nm1.invadelabs.com.
 133.1 300 IN PTR drew-ups-sw-pro.nm1.invadelabs.com.
 135.1 300 IN PTR drew-nuc.nm1.invadelabs.com.
+140.1 300 IN PTR drew-piv4.nm1.invadelabs.com.
 141.1 300 IN PTR drew-piv3-01.nm1.invadelabs.com.
 142.1 300 IN PTR drew-piv3-02.nm1.invadelabs.com.
 143.1 300 IN PTR drew-piv3-03.nm1.invadelabs.com.

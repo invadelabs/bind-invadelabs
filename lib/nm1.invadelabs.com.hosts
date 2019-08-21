@@ -23,6 +23,7 @@ drew-pine64     300 IN A  192.168.1.130
 drew-ups-ng-sw  300 IN A  192.168.1.131
 drew-ups-sw-pro 300 IN A  192.168.1.133
 drew-nuc        300 IN A  192.168.1.133
+drew-piv4       300 IN A  192.168.1.140
 drew-piv3-01    300 IN A  192.168.1.141
 drew-piv3-02    300 IN A  192.168.1.142
 drew-piv3-03    300 IN A  192.168.1.143
