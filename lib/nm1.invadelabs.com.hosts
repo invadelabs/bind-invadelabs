@@ -2,7 +2,7 @@
 $ttl 38400
 $ORIGIN nm1.invadelabs.com.
 nm1.invadelabs.com.	IN	SOA	ns1.invadelabs.com. ns2.invadelabs.com. (
-			1532901184 ; serial
+			1588532464 ; serial
 			10800      ; refresh
 			3600       ; retry
 			604800     ; expire
@@ -14,15 +14,13 @@ nm1.invadelabs.com.	IN	SOA	ns1.invadelabs.com. ns2.invadelabs.com. (
 drew-piv3       300 IN A  192.168.1.121
 drew-spiderkvm  300 IN A  192.168.1.122
 drew-zbook      300 IN A  192.168.1.123
-drew-8570w      300 IN A  192.168.1.124
 drew-serv       300 IN A  192.168.1.125
-drew-surface    300 IN A  192.168.1.126
 drew-24port-sw  300 IN A  192.168.1.127
 drew-piv1       300 IN A  192.168.1.128
 drew-pine64     300 IN A  192.168.1.130
 drew-ups-ng-sw  300 IN A  192.168.1.131
 drew-ups-sw-pro 300 IN A  192.168.1.133
-drew-nuc        300 IN A  192.168.1.133
+drew-nuc        300 IN A  192.168.1.135
 drew-piv4       300 IN A  192.168.1.140
 drew-piv3-01    300 IN A  192.168.1.141
 drew-piv3-02    300 IN A  192.168.1.142

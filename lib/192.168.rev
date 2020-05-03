@@ -2,7 +2,7 @@
 $ttl 38400
 $ORIGIN 168.192.in-addr.arpa.
 168.192.in-addr.arpa.	IN	SOA	ns1.invadelabs.com. ns2.invadelabs.com. (
-			1532901184 ; serial
+			1588532464 ; serial
 			10800      ; refresh
 			3600       ; retry
 			604800     ; expire
@@ -14,9 +14,7 @@ $ORIGIN 168.192.in-addr.arpa.
 121.1 300 IN PTR drew-piv3.nm1.invadelabs.com.
 122.1 300 IN PTR drew-spiderkvm.nm1.invadelabs.com.
 123.1 300 IN PTR drew-zbook.nm1.invadelabs.com.
-124.1 300 IN PTR drew-8570w.nm1.invadelabs.com.
 125.1 300 IN PTR drew-serv.nm1.invadelabs.com.
-126.1 300 IN PTR drew-surface.nm1.invadelabs.com.
 127.1 300 IN PTR drew-24port-sw.nm1.invadelabs.com.
 128.1 300 IN PTR drew-piv1.nm1.invadelabs.com.
 130.1 300 IN PTR drew-pine64.nm1.invadelabs.com.
