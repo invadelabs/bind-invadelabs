@@ -11,19 +11,18 @@ $ORIGIN 168.192.in-addr.arpa.
 
       300 IN NS  ns1.invadelabs.com.
       300 IN NS  ns2.invadelabs.com.
-121.1 300 IN PTR drew-piv3.nm1.invadelabs.com.
-122.1 300 IN PTR drew-spiderkvm.nm1.invadelabs.com.
-123.1 300 IN PTR drew-zbook.nm1.invadelabs.com.
+120.1 300 IN PTR drew-pine64.nm1.invadelabs.com.
+123.1 300 IN PTR drew-spiderkvm.nm1.invadelabs.com.
+124.1 300 IN PTR drew-ups-sw-pro.nm1.invadelabs.com.
 125.1 300 IN PTR drew-serv.nm1.invadelabs.com.
+126.1 300 IN PTR drew-ups-ng-sw.nm1.invadelabs.com.
 127.1 300 IN PTR drew-24port-sw.nm1.invadelabs.com.
 128.1 300 IN PTR drew-piv1.nm1.invadelabs.com.
-130.1 300 IN PTR drew-pine64.nm1.invadelabs.com.
-131.1 300 IN PTR drew-ups-ng-sw.nm1.invadelabs.com.
-133.1 300 IN PTR drew-ups-sw-pro.nm1.invadelabs.com.
-135.1 300 IN PTR drew-nuc.nm1.invadelabs.com.
+129.1 300 IN PTR drew-nuc.nm1.invadelabs.com.
+130.1 300 IN PTR drew-piv3.nm1.invadelabs.com.
+131.1 300 IN PTR drew-piv3-01.nm1.invadelabs.com.
+132.1 300 IN PTR drew-piv3-02.nm1.invadelabs.com.
+133.1 300 IN PTR drew-piv3-03.nm1.invadelabs.com.
+134.1 300 IN PTR drew-piv3-04.nm1.invadelabs.com.
+135.1 300 IN PTR drew-piv3-05.nm1.invadelabs.com.
 140.1 300 IN PTR drew-piv4.nm1.invadelabs.com.
-141.1 300 IN PTR drew-piv3-01.nm1.invadelabs.com.
-142.1 300 IN PTR drew-piv3-02.nm1.invadelabs.com.
-143.1 300 IN PTR drew-piv3-03.nm1.invadelabs.com.
-144.1 300 IN PTR drew-piv3-04.nm1.invadelabs.com.
-145.1 300 IN PTR drew-piv3-05.nm1.invadelabs.com.
